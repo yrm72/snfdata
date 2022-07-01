@@ -270,3 +270,8 @@ services:
 
 volumes:
   postgres-db-volume:
+  ./dags:/opt/airflow/dags
+  ./logs:/opt/airflow/logs
+  ./plugins:/opt/airflow/plugins
+  ./dbt:/dbt # add this in
+  ./dags:/dags # add this in
